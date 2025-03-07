@@ -1,0 +1,22 @@
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+#app {
+  width: 100%;
+}
+
+/* Apply Vazirmatn to all elements */
+* {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+/* Ensure Bootstrap components use Vazirmatn */
+.form-control,
+.form-select,
+.btn,
+.card {
+  font-family: 'Vazirmatn', sans-serif !important;
+}
